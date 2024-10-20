@@ -1,0 +1,74 @@
+/* Overall page layout */
+.profile-container {
+    height: 100vh;
+    max-height: 410px;
+    width: 700px;
+    margin-left:250px;
+    margin-top: 80px;
+    background-color: hsla(180, 100%, 39%, 0.2);
+    /* Deep teal for the left card */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+}
+
+/* Main card styling */
+
+
+/* Upper card divided in two sections */
+.profile-upper-card {
+    display: flex;
+    width: 700px;
+    height: 405px;
+    /* Adjust the width as per the design */
+    background-color: #ffffff;
+    margin-left: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.profile-image-section {
+    background-color: #006d6d;
+    /* Light teal */
+    width: 40%;
+    /* Image section width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 40%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.job-title, .company, .name {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Description section */
+.profile-description-section {
+    width: 60%;
+    padding: 20px;
+    padding-top: 120px;
+    font-size: xx-large;
+    color: teal;
+}
+
+.profile-description-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}

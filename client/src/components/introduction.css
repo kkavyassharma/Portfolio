@@ -1,0 +1,44 @@
+.introduction-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    margin-top: 115px;
+}
+
+.card {
+    background-color: #008080;
+    /* Teal color */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 100, 100, 0.5);
+    /* Deep teal shadow */
+    width: 40%;
+    height: 360px;
+    /* Adjust width as necessary */
+    transition: transform 0.3s;
+    /* Add a transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Elevate card on hover */
+}
+
+h2 {
+    margin-top: 0;
+    /* Remove margin from the top of headings */
+    font-weight: bolder;
+    text-align: center;
+}
+p {
+    padding: 10px;
+    line-height: 23px;
+    text-align: justify;
+}
+li {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}

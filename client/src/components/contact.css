@@ -1,0 +1,30 @@
+/* ContactMe.css */
+#root {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #008080;
+    /* Light teal with opacity */
+    padding: 16px;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+footer svg {
+    height: 24px;
+    width: 24px;
+    color: white;
+    margin: 20px;
+    /* Deep teal */
+}
